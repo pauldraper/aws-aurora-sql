@@ -6,6 +6,8 @@ Amazon often headlines both editions without distinction as "Aurora" ([example](
 
 ## Comparison
 
+Dates of feature support are given to provide a sense of priority and timing.
+
 | | MySQL | PostgreSQL |
 |---|:-:|:-:|
 | General availability | [2015-07-27](https://aws.amazon.com/blogs/aws/now-available-amazon-aurora/) | [2017-10-24](https://aws.amazon.com/blogs/aws/now-available-amazon-aurora-with-postgresql-compatibility/) |
@@ -30,9 +32,9 @@ Amazon often headlines both editions without distinction as "Aurora" ([example](
 | Maximum storage | 64 TB | 64 TB |
 | Continuous incremental backups | 1-35 days | 1-35 days |
 | Minimum cost (on-demand) | [$30/month](https://aws.amazon.com/rds/aurora/pricing/) | [$209/month](https://aws.amazon.com/rds/aurora/pricing/) |
-| Version upgrade path | Supported | Supported for minor versions only |
+| Version upgrade path | Supported | Supported for minor versions only<sup>[1](#footnote-1)</sup> |
 
-Dates of feature support are given to provide a sense of priority and timing.
+<sup><a name="footnote-1">1.</a> [Documention](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_UpgradeDBInstance.Upgrading.html) claims support, but AWS Support has confirmed that is not the case: "The documentation might be confusing in the description, unfortunately the upgrade of an existing Aurora PostgreSQL instance version 9.6.x to version 10.x, is still not supported."</sup>
 
 ## Contribution
 
