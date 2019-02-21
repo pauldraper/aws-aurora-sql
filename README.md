@@ -29,7 +29,7 @@ Amazon often headlines both editions without distinction as "Aurora" ([example](
 | Global database (fast cross-region replication) | [2018-11-27](https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-aurora-global-database/) | No |
 | Maximum storage | 64 TB | 64 TB |
 | Continuous incremental backups | 1-35 days | 1-35 days |
-| Minimum cost (on-demand) | $30/month | $209/month |
+| Minimum cost (on-demand) | [$30/month](https://aws.amazon.com/rds/aurora/pricing/) | [$209/month](https://aws.amazon.com/rds/aurora/pricing/) |
 | Version upgrade path | Supported | Supported for minor versions only |
 
 Dates of feature support are given to provide a sense of priority and timing.
@@ -37,4 +37,3 @@ Dates of feature support are given to provide a sense of priority and timing.
 ## Contribution
 
 Please contribute a PR to fix incomplete/inaccurate information.
-
