@@ -29,6 +29,7 @@ Dates of feature support are given to provide a sense of priority and timing.
 | Parallel query (storage-level query processing) | [2018-09-28](https://aws.amazon.com/blogs/aws/new-parallel-query-for-amazon-aurora/) | No |
 | Custom endpoints | [2018-11-22](https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-aurora-simplifies-workload-management-with-custom-endpoints/) | [2018-11-22](https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-aurora-simplifies-workload-management-with-custom-endpoints/) |
 | Global database (fast cross-region replication) | [2018-11-27](https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-aurora-global-database/) | No |
+| Query Plan Management (control query plan changes) | No | [2018-12-19](https://aws.amazon.com/about-aws/whats-new/2018/12/amazon-aurora-postgresql-compatibility-adds-query-plan-management/) |
 | Performance insights counter metrics | [2019-02-20](https://aws.amazon.com/about-aws/whats-new/2019/02/Performance-Insights-Counter-Metrics-MS-PG-AMS/) | [2018-12-17](https://aws.amazon.com/about-aws/whats-new/2018/12/amazon-rds-performance-insights-supports-counter-metrics-for-aurora-postgresql/)
 | Replication with native databases | Yes | [2019-03-28](https://aws.amazon.com/about-aws/whats-new/2019/03/amazon-aurora-with-postgresql-compatibility-supports-logical-replication/) |
 | Import S3 backups (e.g. fast RDS migration) | [2019-04-18](https://aws.amazon.com/about-aws/whats-new/2019/04/amazon_aurora_and_amazon_rds_enable_faster_migration_from_mysql_57_databases/) | No |
