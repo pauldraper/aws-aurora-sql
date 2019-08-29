@@ -38,7 +38,7 @@ Dates of feature support are given to provide a sense of priority and timing.
 | Instance families | t2, t3, r3, r4, r5 | t3<sup>[1](#footnote-1)</sup>, r4, r5 |
 | Maximum storage | 64 TB | 64 TB |
 | Continuous incremental backups | 1-35 days | 1-35 days |
-| Minimum cost (on-demand) | [$30/month](https://aws.amazon.com/rds/aurora/pricing/) | [$209/month](https://aws.amazon.com/rds/aurora/pricing/) |
+| Minimum cost (on-demand) | [$30/month](https://aws.amazon.com/rds/aurora/pricing/) | [$59/month](https://aws.amazon.com/rds/aurora/pricing/) |
 | Version upgrade path | Supported | Supported for minor versions only<sup>[2](#footnote-1)</sup> |
 
 <sup><a name="footnote-1">1.</a> Only t3.medium.</sup>
