@@ -25,7 +25,7 @@ Dates of feature support are given to provide a sense of priority and timing.
 | Backtrack (fast in-place restore) | [2018-05-10](https://aws.amazon.com/blogs/aws/amazon-aurora-backtrack-turn-back-time/) | No |
 | Publish logs to CloudWatch | [2018-05-23](https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-aurora-publishes-general-slow-query-and-error-logs-to-amazon-cloudwatch/) | No | 
 | Performance insights (advanced database monitoring) | [2018-08-06](https://aws.amazon.com/about-aws/whats-new/2018/08/performance-insights-is-available-for-amazon-aurora-with-mysql-compatibility/) | [2018-07-18](https://aws.amazon.com/about-aws/whats-new/2018/04/rds-performance-insights-on-rds-for-postgresql/)
-| Serverless (automatic startup/shutdown) | [2018-08-09](https://aws.amazon.com/blogs/aws/aurora-serverless-ga/) | No |
+| Serverless (automatic startup/shutdown) | [2018-08-09](https://aws.amazon.com/blogs/aws/aurora-serverless-ga/) | [2019-07-09](https://aws.amazon.com/about-aws/whats-new/2019/07/amazon-aurora-with-postgresql-compatibility-supports-serverless/) |
 | Parallel query (storage-level query processing) | [2018-09-28](https://aws.amazon.com/blogs/aws/new-parallel-query-for-amazon-aurora/) | No |
 | Custom endpoints | [2018-11-22](https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-aurora-simplifies-workload-management-with-custom-endpoints/) | [2018-11-22](https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-aurora-simplifies-workload-management-with-custom-endpoints/) |
 | Global database (fast cross-region replication) | [2018-11-27](https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-aurora-global-database/) | No |
@@ -33,13 +33,17 @@ Dates of feature support are given to provide a sense of priority and timing.
 | Performance insights counter metrics | [2019-02-20](https://aws.amazon.com/about-aws/whats-new/2019/02/Performance-Insights-Counter-Metrics-MS-PG-AMS/) | [2018-12-17](https://aws.amazon.com/about-aws/whats-new/2018/12/amazon-rds-performance-insights-supports-counter-metrics-for-aurora-postgresql/)
 | Replication with native databases | Yes | [2019-03-28](https://aws.amazon.com/about-aws/whats-new/2019/03/amazon-aurora-with-postgresql-compatibility-supports-logical-replication/) |
 | Import S3 backups (e.g. fast RDS migration) | [2019-04-18](https://aws.amazon.com/about-aws/whats-new/2019/04/amazon_aurora_and_amazon_rds_enable_faster_migration_from_mysql_57_databases/) | No |
-| Instance families | t2, t3, r3, r4, r5 | r4, r5 |
+| Data API (JSON API) | [2019-05-30](https://aws.amazon.com/blogs/aws/new-data-api-for-amazon-aurora-serverless/) | No |
+| Multi-Master | [2019-08-08](https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-aurora-multimaster-now-generally-available/) | No |
+| Instance families | t2, t3, r3, r4, r5 | t3<sup>[1](#footnote-1)</sup>, r4, r5 |
 | Maximum storage | 64 TB | 64 TB |
 | Continuous incremental backups | 1-35 days | 1-35 days |
 | Minimum cost (on-demand) | [$30/month](https://aws.amazon.com/rds/aurora/pricing/) | [$209/month](https://aws.amazon.com/rds/aurora/pricing/) |
-| Version upgrade path | Supported | Supported for minor versions only<sup>[1](#footnote-1)</sup> |
+| Version upgrade path | Supported | Supported for minor versions only<sup>[2](#footnote-1)</sup> |
 
-<sup><a name="footnote-1">1.</a> [Documention](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_UpgradeDBInstance.Upgrading.html) claims support, but AWS Support has confirmed that is not the case: "The documentation might be confusing in the description, unfortunately the upgrade of an existing Aurora PostgreSQL instance version 9.6.x to version 10.x, is still not supported."</sup>
+<sup><a name="footnote-1">1.</a> Only t3.medium.</sup>
+
+<sup><a name="footnote-2">2.</a> [Documention](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_UpgradeDBInstance.Upgrading.html) claims support, but AWS Support has confirmed that is not the case: "The documentation might be confusing in the description, unfortunately the upgrade of an existing Aurora PostgreSQL instance version 9.6.x to version 10.x, is still not supported."</sup>
 
 ## Contribution
 
