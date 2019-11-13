@@ -23,7 +23,7 @@ Dates of feature support are given to provide a sense of priority and timing.
 | Auto scaling replicas | [2017-11-17](https://aws.amazon.com/about-aws/whats-new/2017/11/amazon-aurora-now-supports-auto-scaling-for-aurora-replicas/) | [2018-08-16](https://aws.amazon.com/about-aws/whats-new/2018/08/amazon-aurora-with-postgresql-compatibility-supports-auto-scaling-replicas/)
 | Synchronous lambda procedures | [2017-12-11](https://aws.amazon.com/about-aws/whats-new/2017/12/amazon-aurora-with-mysql-compatibility-natively-supports-synchronous-invocation-of-aws-lambda-functions/) | No |
 | Backtrack (fast in-place restore) | [2018-05-10](https://aws.amazon.com/blogs/aws/amazon-aurora-backtrack-turn-back-time/) | No |
-| Publish logs to CloudWatch | [2018-05-23](https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-aurora-publishes-general-slow-query-and-error-logs-to-amazon-cloudwatch/) | No | 
+| Publish logs to CloudWatch | [2018-05-23](https://aws.amazon.com/about-aws/whats-new/2018/05/amazon-aurora-publishes-general-slow-query-and-error-logs-to-amazon-cloudwatch/) | [2019-08-09](https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-aurora-with-postgresql-compatibility-support-logs-to-cloudwatch/) |
 | Performance insights (advanced database monitoring) | [2018-08-06](https://aws.amazon.com/about-aws/whats-new/2018/08/performance-insights-is-available-for-amazon-aurora-with-mysql-compatibility/) | [2018-07-18](https://aws.amazon.com/about-aws/whats-new/2018/04/rds-performance-insights-on-rds-for-postgresql/)
 | Serverless (automatic startup/shutdown) | [2018-08-09](https://aws.amazon.com/blogs/aws/aurora-serverless-ga/) | [2019-07-09](https://aws.amazon.com/about-aws/whats-new/2019/07/amazon-aurora-with-postgresql-compatibility-supports-serverless/) |
 | Parallel query (storage-level query processing) | [2018-09-28](https://aws.amazon.com/blogs/aws/new-parallel-query-for-amazon-aurora/) | No |
@@ -33,8 +33,9 @@ Dates of feature support are given to provide a sense of priority and timing.
 | Performance insights counter metrics | [2019-02-20](https://aws.amazon.com/about-aws/whats-new/2019/02/Performance-Insights-Counter-Metrics-MS-PG-AMS/) | [2018-12-17](https://aws.amazon.com/about-aws/whats-new/2018/12/amazon-rds-performance-insights-supports-counter-metrics-for-aurora-postgresql/)
 | Replication with native databases | Yes | [2019-03-28](https://aws.amazon.com/about-aws/whats-new/2019/03/amazon-aurora-with-postgresql-compatibility-supports-logical-replication/) |
 | Import S3 backups (e.g. fast RDS migration) | [2019-04-18](https://aws.amazon.com/about-aws/whats-new/2019/04/amazon_aurora_and_amazon_rds_enable_faster_migration_from_mysql_57_databases/) | No |
-| Data API (JSON API) | [2019-05-30](https://aws.amazon.com/blogs/aws/new-data-api-for-amazon-aurora-serverless/) | No |
+| Data API (JSON API) | [2019-05-30](https://aws.amazon.com/blogs/aws/new-data-api-for-amazon-aurora-serverless/) | [2019-09-24](https://aws.amazon.com/about-aws/whats-new/2019/09/amazon-aurora-serverless-postgresql-now-supports-data-api/) |
 | Multi-Master | [2019-08-08](https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-aurora-multimaster-now-generally-available/) | No |
+| Storage tags | [2019-10-23](https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-aurora-supports-cost-allocation-tags-for-aurora-storage/) | [2019-10-23](https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-aurora-supports-cost-allocation-tags-for-aurora-storage/) |
 | Instance families | t2, t3, r3, r4, r5 | t3<sup>[1](#footnote-1)</sup>, r4, r5 |
 | Maximum storage | 64 TB | 64 TB |
 | Continuous incremental backups | 1-35 days | 1-35 days |
