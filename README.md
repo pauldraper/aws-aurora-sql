@@ -36,6 +36,8 @@ Dates of feature support are given to provide a sense of priority and timing.
 | Data API (JSON API) | [2019-05-30](https://aws.amazon.com/blogs/aws/new-data-api-for-amazon-aurora-serverless/) | [2019-09-24](https://aws.amazon.com/about-aws/whats-new/2019/09/amazon-aurora-serverless-postgresql-now-supports-data-api/) |
 | Multi-Master | [2019-08-08](https://aws.amazon.com/about-aws/whats-new/2019/08/amazon-aurora-multimaster-now-generally-available/) | No |
 | Storage tags | [2019-10-23](https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-aurora-supports-cost-allocation-tags-for-aurora-storage/) | [2019-10-23](https://aws.amazon.com/about-aws/whats-new/2019/10/amazon-aurora-supports-cost-allocation-tags-for-aurora-storage/) |
+| Comprehend/SageMaker integration | [2019-11-26](https://aws.amazon.com/blogs/aws/new-for-amazon-aurora-use-machine-learning-directly-from-your-databases/) | No |
+| Redshift federated queries | No | [2019-12-03](https://aws.amazon.com/blogs/aws/new-for-amazon-redshift-data-lake-export-and-federated-queries/) |
 | Instance families | t2, t3, r3, r4, r5 | t3<sup>[1](#footnote-1)</sup>, r4, r5 |
 | Maximum storage | 64 TB | 64 TB |
 | Continuous incremental backups | 1-35 days | 1-35 days |
